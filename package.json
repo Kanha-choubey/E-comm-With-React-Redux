@@ -1,7 +1,6 @@
 {
   "name": "ecommerce",
   "version": "0.1.0",
-  "proxy": "https://auth-backend-eskills.onrender.com/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.2",
@@ -21,8 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node api.js && react-scripts start",
+    "build": "node api.js && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

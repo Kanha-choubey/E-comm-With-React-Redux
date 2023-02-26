@@ -7,7 +7,6 @@ function CartList({ product }) {
   const dispatch = useDispatch();
   const handleDelete = () => {
     dispatch(remove(id));
-    console.log(id);
   };
 
   return (

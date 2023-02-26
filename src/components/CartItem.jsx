@@ -6,7 +6,7 @@ function CartItem() {
   const totalPrice = cart.reduce((p, c) => {
     return p + c.price;
   }, 0);
-  console.log(cart);
+
   return (
     <div className="container grid grid-cols-2 grid-rows-1 mx-auto my-auto ">
       <div className=" border-r-2">
